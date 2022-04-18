@@ -14,9 +14,9 @@ const port = 5000;
 //      Por simplicidade foi colocado aqui. \/
 
 // Client id do google
-const CLIENT_ID = '749494830937-nhfcihm9frvjcg5dp26dkj2porau9ff4.apps.googleusercontent.com';
+const CLIENT_ID = 'GOOGLE_CLIENT_ID';
 // Client secre do google
-const CLIENT_SECRET = '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';
+const CLIENT_SECRET = 'GOOGLE_CLIENT_SECRET';
 
 app.use(bodyParser.json())
 app.listen(port, () => console.log(`Server is running on port ${port}`));
